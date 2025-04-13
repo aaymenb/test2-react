@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { FiEdit2, FiTrash } from 'react-icons/fi';
 
 const data = [
@@ -23,7 +22,7 @@ const Badge = ({ type, children }) => {
   );
 };
 
-export default function App() {
+export default function Home() {
   return (
     <div className="page-container">
       <div className="header">
